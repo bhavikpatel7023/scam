@@ -77,7 +77,13 @@ function run() {
         'transport@mmcargoservices.co.za'
     ];
 
-    var userList = [...userMainList, ...userMainList, ...userMainList, ...userMainList, ...userMainList, ...userMainList, ...userMainList];
+    var userList = [
+        ...userMainList, ...userMainList,
+        ...userMainList, ...userMainList,
+        ...userMainList, ...userMainList,
+        ...userMainList, ...userMainList,
+        ...userMainList, ...userMainList
+    ];
 
     setTimeout(function () {
         for (var user of userList) {
